@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Dashboard">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="541dp"
+        android:layout_marginTop="130dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+
+            android:layout_marginTop="295dp"
+            android:fontFamily="@font/aldrich"
+            android:text="Mentor's Name"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/EditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="350dp"
+            android:background="@android:drawable/btn_dropdown"
+
+            android:contentDescription="@string/app_name"
+            android:spinnerMode="dropdown"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.538" />
+
+        <Button
+            android:id="@+id/submit"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="420dp"
+            android:background="#BBA534"
+            android:backgroundTint="#928316"
+            android:text="Submit"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/logocutm" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="96dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="150sp"
+            app:srcCompat="@drawable/rashmisir" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="150sp"
+            app:srcCompat="@drawable/rakeshsir" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="240sp"
+            android:layout_marginTop="150sp"
+            app:srcCompat="@drawable/bubunsir" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="84dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="180sp"
+            android:layout_marginTop="210sp"
+            app:srcCompat="@drawable/saroj" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="69dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="210sp"
+            app:srcCompat="@drawable/arpita" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
